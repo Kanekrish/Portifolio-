@@ -42,10 +42,16 @@ section{
 }
 
 img{
-
-    width:100%;
+    max-width:100%;
+    height:auto;
     display:block;
+}
 
+.image-box{
+    width:100%;
+    max-width:380px;
+    aspect-ratio:1/1;
+    margin:auto;
 }
 
 .section-title{
@@ -140,14 +146,12 @@ HOME
 =========================== */
 
 .home{
-
     min-height:100vh;
     display:grid;
     grid-template-columns:repeat(2,1fr);
     align-items:center;
     gap:60px;
-    padding-top:120px;
-
+    padding:140px 10% 80px;
 }
 
 .home-content span{
